@@ -1,14 +1,18 @@
 Install Oracle VM box
+---------------------
 
 - Load Ubuntu 18.04 LTS image
 - Create user : vijay as admin
+
 Setting Internet & Static IP address
+------------------------------------
  Vm box - > preferences ->  File -> Host network manager -> create new host-only network -> it will create vboxnet0 -> enable DHCP Server
 Click on configure manually
 Remember IP address format - 192.168.56.1 , ip4 network mask : 255.255.255.0
 Ubuntu Vm -> settings- > network - > Adaptor-1 = NAT , -> Adapto-2 = Host only adaptor , vboxnet0 
 
-Inside Ubuntu VM :  
+Inside Ubuntu VM : 
+---------------- 
 
 ifconfig -a 
 ip link show
