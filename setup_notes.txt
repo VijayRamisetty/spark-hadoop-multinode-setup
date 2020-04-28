@@ -444,3 +444,10 @@ spark-submit --deploy-mode client \
                $SPARK_HOME/examples/jars/spark-examples_2.11-2.4.5.jar 10
 
 
+URLs:
+----
+
+Spark History Server   : http://ubuntu-hadoop-master:18080/
+Hadoop Nodes / Tracker : http://ubuntu-hadoop-master:8088/cluster/nodes
+Hadoop Hdfs 		   : http://master:50070/dfshealth.html#tab-overview
+
